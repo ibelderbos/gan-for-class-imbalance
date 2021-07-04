@@ -7,7 +7,7 @@ The required modules can be installed via: <br>
 ```
 pip install -r requirements.txt
 ```
-**Quick start**
+**Quick start**<br>
 You can run the following for execution of the GAN. Make sure to choose the right directory.
 ```
 python train.py
