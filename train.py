@@ -187,7 +187,7 @@ for epoch in range(n_epochs):
                 # gradient penalty & grad norm computation
                 epsilon = torch.rand(len(real), 1, 1, 1, device=device, requires_grad=True)
                 grad = get_gradient(disc, real, fake.detach(), epsilon)
-                _, avg_batch_grad_norm = gradient_penalty(grad)
+                penalty, avg_batch_grad_norm = gradient_penalty(grad, gp_weight)
 
                 if penalty_bool:
                     disc_loss = -disc_real_pred.mean() + disc_fake_pred.mean() + penalty
