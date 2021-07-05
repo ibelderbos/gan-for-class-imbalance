@@ -118,7 +118,7 @@ def get_gradient(disc, real, fake, eps):
     return grad
 
 
-def gradient_penalty(grad):
+def gradient_penalty(grad, gp_weight):
     grad = grad.view(len(grad), -1)
     avg_batch_grad_norm = (grad.norm(2, dim=1)).mean()
     penalty = ((avg_batch_grad_norm-1)**2) * gp_weight
