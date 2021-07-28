@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ```
 
 # Quick start
-The following code can be run to execute the training of the GAN. You can choose your own hyperparameters with the argparser. An example for a model with name `my_first_gan` and learning rate 0.0001 is shown below. If parameter settings are not chosen, the default parameters will be used. <br>
+The following code can be run to execute the training of the GAN. You can choose your own hyperparameters with the ArgumentParser. An example for a model with name `my_first_gan` and learning rate 0.0001 is shown below. If parameter settings are not chosen, the default parameters will be used. <br>
 ```
 python train.py --model_name 'my_first_gan' --lr 0.0001
 ```
