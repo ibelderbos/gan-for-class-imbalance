@@ -28,11 +28,11 @@ In order to access the data, please send a request to:
 # Citation
 Please use the following BibTeX reference when citing this code:
 ```
-@article{belderbos2021conditional,
-  title={Conditional generation of aerial Images for imbalanced learning using generative adversarial networks},
+@article{belderbos2022gans,
+  title={GANs based Aerial Images Generation for Imbalanced Learning},
   author={Belderbos, Itzel and De Jong, Tim and Popa, Mirela},
-  journal={arXiv preprint arXiv: to do},
-  year={2021}
+  journal={International Conference on Pattern Recognition and Artificial Intelligence},
+  year={2022}
 }
 ```
 
