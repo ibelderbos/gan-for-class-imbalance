@@ -30,12 +30,14 @@ In order to access the data, please send a request to:
 # Citation
 Please use the following BibTeX reference when citing this code:
 ```
-@article{belderbos2022gans,
-  title={GANs based Aerial Images Generation for Imbalanced Learning},
-  author={Belderbos, Itzel and De Jong, Tim and Popa, Mirela},
-  journal={International Conference on Pattern Recognition and Artificial Intelligence},
+@inproceedings{belderbos2022gans,
+  title={GANs Based Conditional Aerial Images Generation for Imbalanced Learning},
+  author={Belderbos, Itzel and de Jong, Tim and Popa, Mirela},
+  booktitle={Pattern Recognition and Artificial Intelligence: Third International Conference, ICPRAI 2022, Paris, France, June 1--3, 2022, Proceedings, Part II},
+  pages={330--342},
   year={2022}
 }
+
 ```
 
 
